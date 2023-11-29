@@ -12,3 +12,17 @@ ul {
     display: flex;
     gap: 10px;
 }
+
+.intro-section {
+    display: flex;
+}
+
+.intro-section-left, .intro-section-right {
+    flex: 1;
+}
+
+.intro-section-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
