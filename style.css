@@ -23,14 +23,31 @@ main {
     flex: 1;
 }
 
-
-
 .intro-section {
     display: flex;
 }
 
 .intro-section-left, .intro-section-right {
     flex: 1;
+}
+
+.info-section-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-section-col {
+    max-width: 100px;
+}
+
+.info-section-col p {
+    text-align: center;
+}
+
+.img-box {
+    border: 2px solid lightblue;
+    height: 100px;
+    width: 100px;
 }
 
 .intro-section-right {
