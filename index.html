@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin-Landing-Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+
+    <header class="header dark-bg padding-lr-100">
         <div vlass="header-left">
             <a href="" class="logo">Odin Landing Page</a>
         </div>
@@ -21,21 +25,21 @@
 
     </header>
     <main class="content">
-        <div class="intro-section">
+        <div class="intro-section dark-bg padding-lr-100">
             <div class="intro-section-left">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes under the main title. Its a smaller font and the color
+                <h1 class="hero-main-text">This website is awesome</h1>
+                <p class="hero-secondary-text">This website has some subtext that goes under the main title. Its a smaller font and the color
                     is lower contrast</p>
-                    <button>Sign up</button>
+                    <button class="action-bg">Sign up</button>
                 </p>
             </div>
 
-            <div class="intro-section-right">
+            <div class="hero-secondary-text intro-section-right">
                 This is a placeholder for an image
             </div>
         </div>
-        <div class="info-section">
-            <h2>Some random information.</h2>
+        <div class="section info-section padding-lr-200">
+            <h2 class="info-section-header">Some random information.</h2>
             <div class="info-section-row">
                 <div class="info-section-col">
                     <div class="img-box"></div>
@@ -55,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <div class="quote-section">
+        <div class="section quote-section padding-lr-200">
             <p class="quote"><em>This is an inspiring quote, or a testimonial from a
                 customer. Maybe it's just filling up space or maybe people
                 will actually read it. Who knows? All I know is that it looks
@@ -63,8 +67,8 @@
             </em></p>
             <p class="quote-by"><strong>-Thor, God of Thunder</strong></p>
         </div>
-        <div class="cta-section">
-            <div class="cta-section-ctabox">
+        <div class="section cta-section">
+            <div class="cta-section-ctabox action-bg">
                 <div class="ctabox-left">
                     <p>Call to action! It's time!</p>
                     <p>Sign up for our product by clicking that button right over there!</p>
@@ -76,7 +80,7 @@
         </div>
     </main>
 
-    <footer class="footer">
+    <footer class="footer dark-bg">
         Copyright Goutham Lal 2023
     </footer>
 </body>
